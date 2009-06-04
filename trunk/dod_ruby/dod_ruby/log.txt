@@ -1,0 +1,4 @@
+1¡¢Óï·¨´íÎó
+assert(false, "assert error msg")	# ´íÎó
+assert(false, "assert error msg.")	# ÕıÈ·
+	
