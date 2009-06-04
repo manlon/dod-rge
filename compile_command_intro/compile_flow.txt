@@ -1,0 +1,12 @@
+[一般流程]
+
+1. 使用psp-g++编译链接得到xxx.elf
+
+2. 使用psp-fixup-imports 处理一下xxx.elf
+
+3. 使用mksfo生成标题文件yyy.sfo
+
+4. 使用psp-strip再处理一下xxx.elf 得到xxx2.elf
+
+5. 使用pack-pbp将xxx2.elf yyy.sfo等打包成EBOOT.PBP文件
+

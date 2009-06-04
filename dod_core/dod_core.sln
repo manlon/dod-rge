@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dod_graphics", "dod_graphics\dod_graphics.vcproj", "{ADB73E76-9864-46BD-938A-05630EF8930F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dod_audio", "dod_audio\dod_audio.vcproj", "{9C5C0E84-C920-4F60-B857-0AEED14F3307}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dod_input", "dod_input\dod_input.vcproj", "{F2C1D3DF-ACF5-4DF8-8545-90177B63C4AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dod_math", "dod_math\dod_math.vcproj", "{DB499D07-AFFC-4153-89B1-D39FA1A28646}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dod_system", "dod_system\dod_system.vcproj", "{B8C794D6-5041-4AB1-BDD4-FF5F38689819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB73E76-9864-46BD-938A-05630EF8930F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADB73E76-9864-46BD-938A-05630EF8930F}.Debug|Win32.Build.0 = Debug|Win32
+		{ADB73E76-9864-46BD-938A-05630EF8930F}.Release|Win32.ActiveCfg = Release|Win32
+		{ADB73E76-9864-46BD-938A-05630EF8930F}.Release|Win32.Build.0 = Release|Win32
+		{9C5C0E84-C920-4F60-B857-0AEED14F3307}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C5C0E84-C920-4F60-B857-0AEED14F3307}.Debug|Win32.Build.0 = Debug|Win32
+		{9C5C0E84-C920-4F60-B857-0AEED14F3307}.Release|Win32.ActiveCfg = Release|Win32
+		{9C5C0E84-C920-4F60-B857-0AEED14F3307}.Release|Win32.Build.0 = Release|Win32
+		{F2C1D3DF-ACF5-4DF8-8545-90177B63C4AA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2C1D3DF-ACF5-4DF8-8545-90177B63C4AA}.Debug|Win32.Build.0 = Debug|Win32
+		{F2C1D3DF-ACF5-4DF8-8545-90177B63C4AA}.Release|Win32.ActiveCfg = Release|Win32
+		{F2C1D3DF-ACF5-4DF8-8545-90177B63C4AA}.Release|Win32.Build.0 = Release|Win32
+		{DB499D07-AFFC-4153-89B1-D39FA1A28646}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB499D07-AFFC-4153-89B1-D39FA1A28646}.Debug|Win32.Build.0 = Debug|Win32
+		{DB499D07-AFFC-4153-89B1-D39FA1A28646}.Release|Win32.ActiveCfg = Release|Win32
+		{DB499D07-AFFC-4153-89B1-D39FA1A28646}.Release|Win32.Build.0 = Release|Win32
+		{B8C794D6-5041-4AB1-BDD4-FF5F38689819}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8C794D6-5041-4AB1-BDD4-FF5F38689819}.Debug|Win32.Build.0 = Debug|Win32
+		{B8C794D6-5041-4AB1-BDD4-FF5F38689819}.Release|Win32.ActiveCfg = Release|Win32
+		{B8C794D6-5041-4AB1-BDD4-FF5F38689819}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

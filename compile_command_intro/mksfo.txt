@@ -1,0 +1,1 @@
+Usage: mksfo TITLE output.sfo

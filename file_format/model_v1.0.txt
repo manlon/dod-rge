@@ -1,0 +1,76 @@
+//二维向量
+struct vec2
+{
+	float x;
+	float y;
+};
+
+//三维向量
+struct vec3
+{
+	float x;
+	float y;
+	float z;
+};
+
+//四维向量
+struct vec4
+{
+	float x;
+	float y;
+	float z;
+	float w;
+};
+
+//顶点结构
+struct Vertex
+{
+	vec3 position;
+	vec3 normal;
+	vec2 uv;
+};
+
+//材质
+struct matrial
+{
+	vec4 ambient;	//环境光反射分量
+	vec4 diffuse;	//漫射光反射分量
+	vec4 specular;	//高光发射分量
+	vec4 emissive;	//自发光分量
+};
+
+//一个网格
+struct Mesh
+{
+	int ID;			//本网格的ID号(用于唯一标识)
+	int childCount;		//子网格数量
+	int child[childCount];	//属于本网格的所有子网格的ID
+
+	int VertexCount;	//顶点数量
+	int TriangleCount;	//三角形数量(每个三角形有三个索引号组成)
+
+	vec3 rotation;		//相对父模型的旋转(欧拉角)	//如果是根网格，这些都是0向量即可
+	vec3 translation;	//相对父模型的平移
+	vec3 scale;		//相对父模型的缩放
+
+	matrial theMat;		//本网格的材质
+	char texture[64];	//本网格的贴图文件名
+
+	Vertex allVertexs[VertexCount];		//所有顶点
+	long index[TriangleCount*3];		//所有三角形的索引
+};
+
+//模型文件头
+struct ModelHeader
+{
+	char name[64];		//模型名
+	int MeshCount;		//网格总数
+	int RootMesh;		//根网格ID
+};
+
+
+//整个模型就是由一个个的MESH所组成，这些MESH从根MESH开始呈树状结构，根MESH必须存在，且只能有一个根MESH
+
+模型结构如下:
+
+ModelHeader | mesh | mesh | mesh [ | mesh ]

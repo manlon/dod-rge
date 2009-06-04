@@ -1,0 +1,4 @@
+Usage: psp-fixup-imports [-v] [-o outfile.elf] infile.elf
+Options:
+-o, --output outfile	: Output to a different file
+-v, --verbose		: Verbose output
